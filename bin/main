@@ -1,0 +1,14 @@
+#!/usr/bin/env ruby
+
+puts "这个是我的第一个Ruby项目"
+
+require 'projectdemo'
+require 'pp'
+# 接收命令行参数
+pp ARGV   # 执行 bundle exec main 12345  那么 12345 就是 命令行参数
+
+
+# Ziyouzhe::Writer.write_to('/Users/majianjie/Downloads/Ruby/ruby_project_01/filename.rb','000这个是我的第1个Ruby项目!!!')
+Ziyouzhe::Writer.write_to('/Users/majianjie/Downloads/Ruby/ruby_project_01/filename.rb','111这个是我的第2个Ruby项目!!!')
+
+Ziyouzhe::Writer.write_to(ARGV[0],ARGV[1]) # 这里是接收命令行参数 写入的
