@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["majianjie"]
   spec.email         = ["majianjie@didiglobal.com"]
 
-  spec.summary       = "第一个Ruby项目 summary"
-  spec.description   = "第一个Ruby项目 description"
-  spec.homepage      = "https://www.baidu.com"
+  spec.summary       = "第一个Ruby项目 ziyouzhe4"
+  spec.description   = "第一个Ruby项目 ziyouzhe4"
+  spec.homepage      = "https://github.com/ziyouzhe4/Awesome-Ruby.git"
 
   spec.files = Dir["lib/**/*.rb"] + %w{ bin/main README.md }
 
