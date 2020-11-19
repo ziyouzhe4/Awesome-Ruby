@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    projectdemo (0.1.1)
+    WriterFileUtils (0.1.2)
 
 GEM
   remote: https://rubygems.org/
@@ -12,8 +12,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  WriterFileUtils!
   bundler (~> 1.17)
-  projectdemo!
   rake (~> 10.0)
 
 BUNDLED WITH

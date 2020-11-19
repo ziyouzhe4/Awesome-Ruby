@@ -4,10 +4,10 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "projectdemo/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "projectdemo"
+  spec.name          = "WriterFileUtils"
   spec.version       = Projectdemo::VERSION
-  spec.authors       = ["majianjie"]
-  spec.email         = ["majianjie@didiglobal.com"]
+  spec.authors       = ["ziyouzhe4"]
+  spec.email         = ["592357262@qq.com"]
 
   spec.summary       = "第一个Ruby项目 ziyouzhe4"
   spec.description   = "第一个Ruby项目 ziyouzhe4"
